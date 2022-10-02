@@ -27,7 +27,7 @@ body {
     gap: 2vw;    
 }
 
-.btn {
+.show-modal {
     background-color: var(--white);
     color: var(--black);
     font-size: 1.5rem;
@@ -43,6 +43,9 @@ body {
 
 .hidden {
     display: none;  
+}
+
+.modal {
     width: 60%;
     height: 40vh;
     background-color: var(--white);
@@ -55,7 +58,7 @@ body {
     border-radius: 10px;
 }
 
-.hidden button {
+.close {
     display: flex;
     background-color: var(--white);
     border-style: none;
@@ -65,7 +68,7 @@ body {
     cursor: pointer;
 }
 
-.hidden h2 {
+.modal h2 {
     margin-top: 1rem;
 }
 
