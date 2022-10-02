@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --green: rgb(76, 215, 129);
+    --black: rgb(3, 24, 11);
+    --white: rgb(233, 243, 237);
+    --grey: rgb(221, 236, 227);
+}
+
+body {
+    background-color: var(--green);
+    color: var(--white);
+    font-family: 'Finlandica', sans-serif;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10vh;
+    gap: 2vw;    
+}
+
+.btn {
+    background-color: var(--white);
+    color: var(--black);
+    font-size: 1.5rem;
+    padding: 1.5vw;
+    cursor: pointer;
+    border-style: none;
+    border-radius: 30px;    
+}
+
+.btn:hover {
+    background-color: var(--grey);
+}
+
+.hidden {
+    display: none;  
+    width: 60%;
+    height: 40vh;
+    background-color: var(--white);
+    color: var(--black);
+    font-size: 1rem;
+    font-family: 'Finlandica', sans-serif;
+    align-content: center;
+    padding: 0.5rem;
+    margin: 2vh auto auto auto;
+    border-radius: 10px;
+}
+
+.hidden button {
+    display: flex;
+    background-color: var(--white);
+    border-style: none;
+    font-size: 2rem;
+    color: var(--black);
+    margin-left: 54vw;
+    cursor: pointer;
+}
+
+.hidden h2 {
+    margin-top: 1rem;
+}
+
