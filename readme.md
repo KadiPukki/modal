@@ -7,8 +7,8 @@ All these interactions were developed using JavaScript.
 
 ### Screenshot
 
-![Main Page](./images/Screenshot%20(29).png)
-![Main Page](./images/Screenshot%20(30).png)
+![Main Page](./assets/images/Screenshot%20(29).png)
+![Main Page](./assets/images/Screenshot%20(30).png)
 
 
 ### Built with
